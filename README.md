@@ -29,6 +29,27 @@ Frontal radiograph of the chest presents patchy opacity consistent with non-endp
 
 ## User Tutorial
 ### File Structure
-The folder WHO_images/combine_images contains 9 randomly selected images (3 PEP, 3 OI, and 3 non-PEP/OI) from the WHO-CRES dataset for you to play with.
+The folder [WHO_images](./WHO_images) contains a toy sample of 9 randomly selected images (3 PEP, 3 OI, and 3 non-PEP/OI) from the WHO-CRES dataset.
+The folder [saved_model[(./saved_model) contains a pre-trained weight file from the PERCH-CXR study.
+
+### Step by Step Instruction
+1. Transform data into TFRecords file, the recommended format for TensorFlow.
+
+```
+python generate_tfreocrd.py
+```
+2. Train and evaluate the model.
+```
+python train.py
+```
+3. Test the model.
+```
+python test.py
+```
+4. Visualize model's prediction using <a href="https://arxiv.org/abs/1610.02391">Grad-CAM</a>.
+```
+python grad-cam.py
+```
+
 
   
