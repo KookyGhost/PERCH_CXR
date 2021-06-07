@@ -51,5 +51,5 @@ Star Chen (starchen1440@gmail.com)
 The study is sponsored by <a href="https://www.merck.com/">Merck & Co., Inc.</a>
 
 ## License
-MIT
+This project is licensed under the terms of the MIT license.
   
