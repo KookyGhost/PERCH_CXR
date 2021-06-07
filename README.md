@@ -40,8 +40,8 @@ The folder [saved_model](./saved_model) contains a pre-trained weight file from 
 4. Run ```python grad-cam.py``` to visualize model's prediction using <a href="https://arxiv.org/abs/1610.02391">Grad-CAM</a>.
 
 ### Config.ini File Explanation
-- The ```[DATA]``` section contains a ```sharding``` parameter. Sharding is recommended if you want a more thoroughly shuffled dataset (See <a href="https://www.moderndescartes.com/essays/shuffle_viz/">"How to shuffle in TensorFlow"</a>). Data shuffling is typically more of a problem in large dataset.
-- Also in ```[DATA]```, if ```n_fold```>1, the data generating process will create n folders. This is recommended if you want to train the model using n-fold cross-validation to reduce then risk of a biased validation set, which is more of a problem in small dataset.
+- The ```[DATA]``` section contains a ```sharding``` parameter. Sharding is recommended if you want a more thoroughly shuffled dataset (See <a href="https://www.moderndescartes.com/essays/shuffle_viz/">"How to shuffle in TensorFlow"</a>). 
+- If you want to train the model using n-fold cross-validation, set ```n_fold```>1. 
 - The ```[TRAIN]``` section contains a ```class_names``` parameter. Its order corresponds to the order of outcome columns in the data csv file and determines the order of model outputs. If you are evaluating your pre-trained weight in a new dataset, remember to sort the outcome columns in your data csv file according to the ```class_names```.
 
 ## Author
