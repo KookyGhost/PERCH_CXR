@@ -48,7 +48,7 @@ The folder [saved_model](./saved_model) contains a pre-trained weight file from 
 Star Chen (starchen1440@gmail.com)
 
 ## Acknowledgment
-The study is sponsored by Merck & Co., Inc.
+The study is sponsored by <a href="https://www.merck.com/">Merck & Co., Inc.</a>
 
 ## License
 MIT
