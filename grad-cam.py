@@ -16,7 +16,7 @@ def main():
       config_file = "./config.ini"
       cp = ConfigParser()
       cp.read(config_file)
-      tfrecord_folder = cp["GRAD-CAM"].get("tfrecord_folder")
+      tf_record_folder = cp["GRAD-CAM"].get("tf_record_folder")
       # dataset_name = cp["GRAD-CAM"].get("dataset_name")
       tf_record_name = cp["GRAD-CAM"].get("tf_record_name")
       saved_weights_path  = cp["GRAD-CAM"].get("saved_weights_path")
@@ -25,7 +25,7 @@ def main():
       class_to_visualize = cp["GRAD-CAM"].get("class_to_visualize")
       print(class_to_visualize)
       image_size = cp["TRAIN"].getint("IMAGE_SIZE")
-      tf_record_dir = os.path.join(tfrecord_folder, tf_record_name)
+      tf_record_dir = os.path.join(tf_record_folder, tf_record_name)
       reader = Extract_TFrecord(image_size=image_size, batch_size=1, sharding=False, grad_cam=True)
       data = reader.get_dataset(augment=False, tf_record_dir=tf_record_dir, sharding=False, shuffle=False)
 
