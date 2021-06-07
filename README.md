@@ -32,14 +32,15 @@ Frontal radiograph of the chest presents patchy opacity consistent with non-endp
 The folder [WHO_images](./WHO_images) contains a toy sample of 9 randomly selected images (3 PEP, 3 OI, and 3 non-PEP/OI) from the WHO-CRES dataset.
 The folder [saved_model[(./saved_model) contains a pre-trained weight file from the PERCH-CXR study.
 
-### Step by Step Instruction:
-<strong>Note that this instruction works for the toy sample right out of the box. For training on your own data, modify the parameters in ```config.ini```
+### Step by Step Instructions:
+<strong>Note that the instructions work for the toy sample right out of the box. For training on your own data, modify the parameters in ```config.ini```</strong>.
 
-1. Run ```python generate_tfreocrd.py``` to transform data into <a href="https://www.tensorflow.org/tutorials/load_data/tfrecord">TFRecords</a> file, the recommended format for TensorFlow.
+1. Run ```python generate_tfreocrd.py``` to transform data into <a href="https://www.tensorflow.org/tutorials/load_data/tfrecord">TFRecords</a> file, an optional format for TensorFlow, recommended for working large dataset.
 2. Run ```python train.py``` to train and evaluate the model.
 3. Run ```python test.py``` to test the model.
 4. Run ```python grad-cam.py``` to visualize model's prediction using <a href="https://arxiv.org/abs/1610.02391">Grad-CAM</a>.
 
-
+### Config.ini File Explanation
+- The TFRecord generating step contains a ```sharding``` parameter. Sharding is recommended if you want a more thoroughly shuffled dataset (<a href="https://www.moderndescartes.com/essays/shuffle_viz/">"How to shuffle in TensorFlow"</a>).
 
   
