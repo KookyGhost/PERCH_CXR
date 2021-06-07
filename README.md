@@ -1,4 +1,4 @@
-# PERCH-CXR
+# PERCH-CXR STUDY
 
 
  <a href="https://apps.who.int/iris/bitstream/handle/10665/66956/WHO_V_and_B_01.35.pdf;jsessionid=BBBC54AAF1AC3A4330B6B0C39914412A?sequence=1">Primary endpoint pneumonia (<strong>PEP</strong>)</a> along with non-endpoint/other infiltrates (<strong>OI</strong>), and <strong>non-PEP/OI</strong> are defined by the World Health Organization (WHO) as endpoints of evaluation in vaccine effectiveness studies among pediatric population. This is a tool to detect these endpoints on pediatric chest radiograph, written in <strong> TensorFlow 2.2</strong>. The original study was published on [preprint link to be added].
