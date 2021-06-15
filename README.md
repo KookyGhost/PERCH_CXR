@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
   <meta name="google-site-verification" content="K02WViHIvSJOIg2XO5HU1SaSqdHKtTEoC5P1ZyWxP8w" />
 </head>
@@ -49,4 +47,3 @@ The folder <a href="./saved_model">saved_model</a> contains a pre-trained weight
 <p>The study is sponsored by <a href="https://www.merck.com/">Merck &amp; Co., Inc.</a></p>
 <h2 id="license">License</h2>
 <p>This project is licensed under the terms of the MIT license.</p>
-</html>
