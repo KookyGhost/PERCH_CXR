@@ -9,11 +9,11 @@ The project also used <a href="https://stanfordmlgroup.github.io/competitions/ch
 <strong>Disclaimer:</strong> The definition is designed to be used in epidmiological studies which typically favors <strong>specificty</strong> over sensitivity, and thus is not meant to be used for clinical diagnosis where a higher sensitivity is preferred to reduce under-diagnosis. <a href="https://pubmed.ncbi.nlm.nih.gov/21870077/">Some researchers</a> have recommended dropping OI category from the WHO definition due to its low inter-rater agreement.
 
 ## Visualization
- ### Primary Endpoint Pneumonia
+### Primary Endpoint Pneumonia
 <details>
   <summary>Click to expand</summary>  
   
-![alt text](WHO_images/PEP.png)
+<img src="WHO_images/PEP.png" alt="alt text" />
 Frontal radiographs of the chest in a child with WHO-defined primary endpoint pneumonia; the child is rotated to the right with dense opacity in the right upper lobe; the model localizes consolidation with a predicted probability p = 0.980; the discriminative visualization shows fine-grained features important to the predicted class.
 </details>
 
