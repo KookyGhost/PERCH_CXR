@@ -29,6 +29,7 @@ The folder <a href="./saved_model">saved_model</a> contains a pre-trained weight
 <h3 id="step-by-step-instructions-">Step by Step Instructions:</h3>
 <p><strong>Note:</strong> The instructions work for the toy sample right out of the box. For training on your own data, modify the parameters in <code>config.ini</code>, and structure the data csv file as is in <a href="./WHO_images/WHO_CRES.csv">WHO_CRES.csv</a>, with first column containing path to each image, and second onward column containing image labels.</p>
 <ol>
+ <li>Run <code>pip install -r requirements.txt</code> to install required packages.</li>
 <li>Run <code>python generate_tfreocrd.py</code> to transform data into <a href="https://www.tensorflow.org/tutorials/load_data/tfrecord">TFRecords</a> file, an optional format for TensorFlow, recommended for working large dataset.</li>
 <li>Run <code>python train.py</code> to train and evaluate the model.</li>
 <li>Run <code>python test.py</code> to test the model.</li>
