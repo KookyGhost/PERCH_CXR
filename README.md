@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="google-site-verification" content="K02WViHIvSJOIg2XO5HU1SaSqdHKtTEoC5P1ZyWxP8w" />
+</head>
 <h1 id="perch_cxr">PERCH_CXR</h1>
 <p> <a href="https://apps.who.int/iris/bitstream/handle/10665/66956/WHO_V_and_B_01.35.pdf;jsessionid=BBBC54AAF1AC3A4330B6B0C39914412A?sequence=1">Primary endpoint pneumonia (<strong>PEP</strong>)</a> along with non-endpoint/other infiltrates (<strong>OI</strong>), and <strong>non-PEP/OI</strong> are defined by the World Health Organization (WHO) as endpoints of evaluation in vaccine effectiveness studies among pediatric population. This is a tool to detect these endpoints on pediatric chest radiograph. The project is written in <strong> TensorFlow 2.2</strong>. The original study was published on [preprint link to be added].</p>
 <p>The model was built using <a href="https://arxiv.org/abs/1608.06993">DenseNet121</a> and trained using chest x-ray images from the <a href="https://academic.oup.com/cid/article/64/suppl_3/S253/3858215"> Pneumonia Etiology Research for Child Health (PERCH)</a> study. 
@@ -44,3 +49,4 @@ The folder <a href="./saved_model">saved_model</a> contains a pre-trained weight
 <p>The study is sponsored by <a href="https://www.merck.com/">Merck &amp; Co., Inc.</a></p>
 <h2 id="license">License</h2>
 <p>This project is licensed under the terms of the MIT license.</p>
+</html>
