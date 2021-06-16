@@ -1,7 +1,7 @@
 <head>
   <meta name="google-site-verification" content="K02WViHIvSJOIg2XO5HU1SaSqdHKtTEoC5P1ZyWxP8w" />
 </head>
-<h1 id="perch_cxr">PERCH_CXR (Pneumonia Etiology Research for Child Health: Chest X-ray) </h1>
+<h1 id="perch_cxr">PERCH_CXR (A Chest X-ray Model From Pneumonia Etiology Research for Child Health) </h1>
 <p> <a href="https://apps.who.int/iris/bitstream/handle/10665/66956/WHO_V_and_B_01.35.pdf;jsessionid=BBBC54AAF1AC3A4330B6B0C39914412A?sequence=1">Primary endpoint pneumonia (<strong>PEP</strong>)</a> along with non-endpoint/other infiltrates (<strong>OI</strong>), and <strong>non-PEP/OI</strong> are defined by the World Health Organization (WHO) as endpoints of evaluation in vaccine effectiveness studies among pediatric population. This is a tool to detect these endpoints on pediatric chest radiograph. The project is written in <strong> TensorFlow 2.2</strong>. The original study is published on PLOS ONE [preprint link to be added].</p>
 <p>The model was built using <a href="https://arxiv.org/abs/1608.06993">DenseNet121</a> and trained using chest x-ray images from the <a href="https://academic.oup.com/cid/article/64/suppl_3/S253/3858215"> Pneumonia Etiology Research for Child Health (PERCH)</a> study. 
 The project also used <a href="https://stanfordmlgroup.github.io/competitions/chexpert/">CheXpert</a> dataset for pretraining, and images from <a href="https://pubmed.ncbi.nlm.nih.gov/15976876/">WHO-original</a> and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5608771/">WHO-CRES (Chest Radiography in Epidemiological Studies)</a> for testing.</p>
