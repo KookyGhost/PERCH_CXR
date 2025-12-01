@@ -6,14 +6,14 @@ The project also used <a href="https://stanfordmlgroup.github.io/competitions/ch
 <h2 id="visualization">Visualization</h2>
 <h3 id="primary-endpoint-pneumonia">Primary Endpoint Pneumonia</h3>
 <details>
-  <summary>Click to expand</summary><br>
+  <!-- <summary>Click to expand</summary><br> -->
 <img src="WHO_images/PEP.png" alt="alt text" />
 Frontal radiographs of the chest in a child with WHO-defined primary endpoint pneumonia; the child is rotated to the right with dense opacity in the right upper lobe; the model localizes consolidation with a predicted probability p = 0.980; the discriminative visualization shows fine-grained features important to the predicted class.
 </details>
 
 <h3 id="non-endpoint-other-infiltrate">Non-Endpoint/Other Infiltrate</h3>
 <details>
-  <summary>Click to expand</summary>
+  <!-- <summary>Click to expand</summary> -->
 
 <img src="WHO_images/OI.png" alt="alt text" />
 Frontal radiograph of the chest presents patchy opacity consistent with non-endpoint infiltrate. The model correctly classifies the image as infiltrate with a probability of p = 0.917 and localizes the areas of opacity. The class discriminative visualization highlights important class features.
