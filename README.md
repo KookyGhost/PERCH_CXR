@@ -5,19 +5,19 @@ The project also used <a href="https://stanfordmlgroup.github.io/competitions/ch
 <p><strong>Disclaimer:</strong> The definition is designed to be used in epidmiological studies which typically favors <strong>specificty</strong> over sensitivity, and thus is not meant to be used for clinical diagnosis where a higher sensitivity is preferred to reduce under-diagnosis. <a href="https://pubmed.ncbi.nlm.nih.gov/21870077/">Some researchers</a> have recommended dropping OI category from the WHO definition due to its low inter-rater agreement.</p>
 <h2 id="visualization">Visualization</h2>
 <h3 id="primary-endpoint-pneumonia">Primary Endpoint Pneumonia</h3>
-<details>
+<!-- <details> -->
   <!-- <summary>Click to expand</summary><br> -->
 <img src="WHO_images/PEP.png" alt="alt text" />
 Frontal radiographs of the chest in a child with WHO-defined primary endpoint pneumonia; the child is rotated to the right with dense opacity in the right upper lobe; the model localizes consolidation with a predicted probability p = 0.980; the discriminative visualization shows fine-grained features important to the predicted class.
-</details>
+<!-- </details> -->
 
 <h3 id="non-endpoint-other-infiltrate">Non-Endpoint/Other Infiltrate</h3>
-<details>
+<!-- <details> -->
   <!-- <summary>Click to expand</summary> -->
 
 <img src="WHO_images/OI.png" alt="alt text" />
 Frontal radiograph of the chest presents patchy opacity consistent with non-endpoint infiltrate. The model correctly classifies the image as infiltrate with a probability of p = 0.917 and localizes the areas of opacity. The class discriminative visualization highlights important class features.
-</details>
+<!-- </details> -->
 
 <h2 id="user-tutorial">User Tutorial</h2>
 <h3 id="file-structure-">File Structure:</h3>
